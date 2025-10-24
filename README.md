@@ -184,8 +184,6 @@ ORDER BY customer_segment;
 
 * Average LTV: $10,961 per customer — nearly 32× higher than low-value customers.
 
-* Insight: Classic Pareto principle (80/20 rule) — a small group generates the majority of revenue.
-
 * Losing even a small portion of these customers would significantly impact revenue.
 
 ## 🧭 Strategic Recommendations
@@ -283,9 +281,8 @@ The query calculates:
 
 * Indicates newer cohorts are contributing less revenue per customer, possibly due to:
 
-* Smaller order sizes
-
-* Discount-heavy acquisition strategies
+  * Smaller order sizes
+  * Discount-heavy acquisition strategies
 
 **Recent Cohorts (2022–2024)**
 
@@ -307,7 +304,7 @@ Investigate why newer customers are spending less are they buying cheaper SKUs, 
 * **Revive High-Value Behavior:**
 Analyze 2016–2019 cohort behaviors (purchase frequency, product mix) to replicate success patterns for new customers.
 
-## 🧭 Customer Retention & Churn Analysis (Cohort-Based)
+## 3. 🧭 Customer Retention & Churn Analysis (Cohort-Based)
 
 This analysis evaluates customer retention and churn by cohort year using the Contoso Sales dataset.
 
@@ -442,3 +439,23 @@ GROUP BY cohort_year, status;
 - Survey churned customers to identify dissatisfaction causes (price, quality, or support).
 
 - Feed insights into product development and marketing.
+
+ ## 🏁 Conclusion
+
+This end-to-end analysis of Contoso’s sales data reveals clear insights into customer behaviour patterns and growth opportunities:
+
+* Customer Segmentation shows that the top 25% of customers generate over 65% of total revenue, highlighting the importance of focusing on premium segments for retention and personalised engagement.
+
+* Cohort Revenue Analysis indicates that customer acquisition peaked between 2018–2019, but average revenue per user has steadily declined since 2020 — suggesting a shift toward volume-based rather than value-based growth.
+
+* Retention & Churn Analysis exposes a persistent churn rate of ~90%, with only slight improvement in recent cohorts — signaling the need for stronger loyalty and re-engagement initiatives.
+
+To strengthen long-term performance, Contoso should:
+
+* Implement predictive churn modeling and targeted reactivation campaigns.
+
+* Build tiered loyalty programs that reward high-value and repeat customers.
+
+* Revisit pricing and product strategies to improve average revenue per customer for newer cohorts.
+
+This project demonstrates how SQL-driven cohort analytics, combined with visualization and business interpretation, can transform raw transactional data into strategic insights empowering organizations to make informed, customer-centric business decisions.
