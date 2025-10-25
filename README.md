@@ -151,8 +151,7 @@ ORDER BY customer_segment;
 
 ### 📈 Visualization
 
-![Customer Segment Revenue Share](visuals/segment_revenue_share.png)
-
+<img src="visuals/segment_revenue_share.png" alt="Customer Segment Revenue Share" style="width:50%; height:auto;">
 
 ## 📊 Analysis
 
@@ -257,7 +256,7 @@ The query calculates:
 
 ### 📈 Visualization
 
-![Cohort Revenue](visuals/cohort_revenue.png)
+<img src="visuals/cohort_revenue.png" alt="Cohort Revenue" style="width:50%; height:auto;">
 
 ### 📈 Insights
 
@@ -384,7 +383,7 @@ GROUP BY cohort_year, status;
 
 ### 📈 Visualization
 
-![Cohort Revenue](visuals/cohort_retention_churn.png)
+<img src="visuals/cohort_retention_churn.png" alt="Cohort Retention" style="width:50%; height:auto;">
 
 ### 📊 Insights
 
